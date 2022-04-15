@@ -1,0 +1,20 @@
+[nfs]
+
+localhost ansible_connection=local
+172.31.18.90 ansible_connection=ssh ansible_user=ec2-user
+
+[webservers]
+
+localhost ansible_connection=local
+172.31.25.28 ansible_connection=ssh ansible_user=ubuntu
+172.31.19.29 ansible_connection=ssh ansible_user=ubuntu
+
+[db]
+
+localhost ansible_connection=local
+172.31.26.153 ansible_connection=ssh ansible_user=ec2-user 
+
+[lb]
+
+localhost ansible_connection=local
+172.31.27.163 ansible_connection=ssh ansible_user=ubuntu
