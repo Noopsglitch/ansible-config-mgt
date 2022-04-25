@@ -1,0 +1,5 @@
+[uat-webservers]
+
+localhost ansible_connection=local
+172.31.25.28 ansible_connection=ssh ansible_user=ubuntu
+172.31.19.29 ansible_connection=ssh ansible_user=ubuntu
